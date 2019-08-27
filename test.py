@@ -1,3 +1,5 @@
+
+
 abecedario = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 num = []
 
@@ -26,17 +28,17 @@ def crearLista(lista):
 
 lista_nueva = []
 crearLista(lista_nueva)
+def click()
+    variable = 0
 
-variable = 0
-
-click = ""
-while click != "q":
-    click = input("apreta cualquier tecla para sacar numero, letra 'Q' para salir")
-    print (lista_nueva[variable])
-    if variable != 2599:
-        variable +=1
-    else:
-        variable = 0
+    click = ""
+    while click != "q":
+        click = input("apreta cualquier tecla para sacar numero, letra 'Q' para salir")
+        print (lista_nueva[variable])
+        if variable != 2599:
+            variable +=1
+        else:
+            variable = 0
    
 
     
