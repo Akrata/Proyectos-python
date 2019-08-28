@@ -1,0 +1,16 @@
+Paciente llega, imprime un ticket según sector al que desea ir.
+
+Se crea ticket con un id,  un numero ,el sector al que se adjudica el ticket , la hora de creacion y el estdo del ticket, por defecto sin llamar o false.
+En el momento que ese ticket es llamado se cambiara a true.
+
+Usuario se conecta al equipo con un login de nombre de usuario, contraseña, y selecciona sector y puesto en el que esta.
+Al darle llamar siguiente numero, el sistema verifica en la base de datos el primer ticket de la lista de tickets que no fueron llamados de ese sector.
+Mostrandolo en el visor con numero de ticket, el sector, y el puesto en el que está siendo llamado.
+Tambien existe boton de volver a llamar.
+Cuando se llama un numero este tendra guardado la hora de creacion del ticket, y Se calculara una media entre los ultimos 5 numeros. el tiempo estimado desde que saco el ticket hasta su llamado.
+
+Visor mostrara ultimos 3 numeros llamados del sector. Dejando en primera posicion el ultimo llamado.
+
+El visor devera actualizarse cada vez que un numero sea llamado-
+
+el llamador mostrara el numero llamado por el usuario.
