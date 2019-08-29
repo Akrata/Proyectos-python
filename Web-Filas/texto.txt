@@ -13,4 +13,4 @@ Visor mostrara ultimos 3 numeros llamados del sector. Dejando en primera posicio
 
 El visor devera actualizarse cada vez que un numero sea llamado-
 
-el llamador mostrara el numero llamado por el usuario.
+el llamador le mostrara misma info que el visor al usuario.

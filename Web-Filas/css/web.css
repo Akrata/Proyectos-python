@@ -3,7 +3,28 @@
     margin-top: 20px;
 }
 #header {
-    height: 125px;
+   
     margin-bottom: 40px;
      
+}
+#publicidad {
+
+    
+    margin-right: 50px;
+    margin-left: 50px;
+}
+#visor-numeros {
+    
+    
+    
+    margin-left: 50px;
+
+}
+.hero.is-info.is-bold{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.hero.is-danger.is-bold{
+    margin-bottom: 10px;
+    text-align: center;
 }
